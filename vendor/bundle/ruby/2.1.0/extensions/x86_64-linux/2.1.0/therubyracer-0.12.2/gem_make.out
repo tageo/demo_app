@@ -1,0 +1,40 @@
+/home/vagrant/.rvm/rubies/ruby-2.1.5/bin/ruby -r ./siteconf20150827-4448-1p889ov.rb extconf.rb 
+checking for main() in -lpthread... yes
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+compiling accessor.cc
+compiling signature.cc
+compiling external.cc
+compiling date.cc
+compiling array.cc
+compiling value.cc
+compiling trycatch.cc
+compiling context.cc
+compiling init.cc
+compiling primitive.cc
+compiling backref.cc
+compiling gc.cc
+compiling exception.cc
+compiling message.cc
+compiling template.cc
+compiling invocation.cc
+compiling v8.cc
+compiling handles.cc
+compiling string.cc
+compiling rr.cc
+compiling script.cc
+compiling constraints.cc
+compiling constants.cc
+compiling heap.cc
+compiling function.cc
+compiling locker.cc
+compiling object.cc
+compiling stack.cc
+linking shared-object v8/init.so
+
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 init.so ./.gem.20150827-4448-4mziwc/v8
+installing default init libraries

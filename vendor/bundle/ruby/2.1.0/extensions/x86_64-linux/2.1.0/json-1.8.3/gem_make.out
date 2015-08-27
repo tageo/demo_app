@@ -1,0 +1,10 @@
+/home/vagrant/.rvm/rubies/ruby-2.1.5/bin/ruby -r ./siteconf20150827-4448-s4hof5.rb extconf.rb 
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+make: Nothing to be done for `all'.
+
+make "DESTDIR=" install
+installing default libraries
